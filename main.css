@@ -63,6 +63,10 @@
          url('/fonts/bebas-neue-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -154,6 +158,10 @@ nav ul {
 
 #nav__menu__contact {
     margin-right: 0;
+}
+
+#home a, nav a {
+    transform: 0.5s;
 }
 
 a:focus {
