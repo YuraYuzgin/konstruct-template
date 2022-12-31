@@ -641,6 +641,61 @@ nav {
 
 /* end styles about */
 
+
+/* start styles services */
+
+.services {
+    margin: 115px 70px 0 70px;
+}
+
+.services__header h2 {
+    margin: 0 110px 0 0;
+}
+
+.services__header__button {
+    margin-left: 28px;
+}
+
+.services__main__card {
+    margin-right: 25px;
+}
+
+/* end styles services */
+
+
+/* start styles contact */
+
+.contact {
+    padding: 41px 70px 0 70px;
+    height: 550px;
+}
+
+.contact__conteiner__company {
+    max-width: 200px;
+}
+
+.contact__conteiner {
+    position: relative;
+}
+
+.contact__conteiner__links__conteiner__group1,
+.contact__conteiner__links__conteiner__group2, 
+.contact__conteiner__links__conteiner__group3 {
+    margin-right: 28px;
+}
+
+.contact__conteiner__links__conteiner__group3 {
+    margin-right: 0;
+}
+
+#social {
+    position: absolute;
+    top: 165px;
+    right: 26px;
+}
+
+/* end styles contact */
+
 }
 
 
