@@ -667,7 +667,7 @@ nav {
 
 .contact {
     padding: 41px 70px 0 70px;
-    height: 550px;
+    height: 270px;
 }
 
 .contact__conteiner__company {
@@ -788,6 +788,7 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     height: 478px;
+    width: 340px;
 }
 
 .about__images {
@@ -897,6 +898,7 @@ nav ul {
 
 .contact {
     padding: 41px 20px 0 20px;
+    height: 650px;
 }
 
 .contact__conteiner {
@@ -933,6 +935,10 @@ nav ul {
     margin: 30px auto 0 auto;
 }
 
+#social {
+    position: static;
+}
+
 /* end styles contact */
 
 }
@@ -949,5 +955,11 @@ nav ul {
     .nav__link {
         margin-right: 5px;
     }    
+
+    .about__images__conteiner {
+        display: flex;
+        flex-wrap: wrap;
+        height: 478px;
+    }
 
 }
